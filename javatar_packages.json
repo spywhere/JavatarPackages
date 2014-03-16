@@ -1,17 +1,23 @@
 {
 	"packages": [
 		{
-			"name": "Java SE7",
-			"details": "Java SE7 packages",
-			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/JavaSE7.javatar-packages"
+			"propername": "Java SE7",
+			"name": "JavaSE7",
+			"details": "Java Standard Edition 7 packages (~1.4MB)",
+			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/JavaSE7.javatar-packages",
+			"hash": "e97b9b411575c73cf8561022ec007b6402ba86be365d4da825c01ce1fd9ad3e0"
 		}, {
-			"name": "Java SE8",
-			"details": "Java SE8 packages",
-			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/JavaSE8.javatar-packages"
+			"propername": "Java SE8",
+			"name": "JavaSE8",
+			"details": "Java Standard Edition 8 packages (~1.8MB)",
+			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/JavaSE8.javatar-packages",
+			"hash": "21afaedd094fa7ef3994577807500f80e2c3d236094eef981417569e10de0683"
 		}, {
-			"name": "Java FX8",
-			"details": "Java FX8 packages",
-			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/JavaFX8.javatar-packages"
+			"propername": "Java FX8",
+			"name": "JavaFX8",
+			"details": "JavaFX 8 packages (~980KB)",
+			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/JavaFX8.javatar-packages",
+			"hash": "8a32971866a0db9afc709e7757cd74ac60d5d4811031df6b911c8c423a746a72"
 		}
 	]
 }

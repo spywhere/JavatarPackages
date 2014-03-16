@@ -1,0 +1,17 @@
+{
+	"packages": [
+		{
+			"name": "Java SE7",
+			"details": "Java SE7 packages",
+			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/JavaSE7.javatar-packages"
+		}, {
+			"name": "Java SE8",
+			"details": "Java SE8 packages",
+			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/JavaSE8.javatar-packages"
+		}, {
+			"name": "Java FX8",
+			"details": "Java FX8 packages",
+			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/JavaFX8.javatar-packages"
+		}
+	]
+}

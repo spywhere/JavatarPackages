@@ -19,6 +19,18 @@
 			"details": "JavaFX 8 packages (~980KB)",
 			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/JavaFX8.javatar-packages",
 			"hash": "8a32971866a0db9afc709e7757cd74ac60d5d4811031df6b911c8c423a746a72"
+		}, {
+			"propername": "Bukkit 1.6.4 R2.0",
+			"name": "Bukkit-1.6.4-R2.0",
+			"details": "Bukkit 1.6.4 R2.0 Recommended Build (~399KB)",
+			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/Bukkit-1.6.4-R2.0.javatar-packages",
+			"hash": "edb26a91f027a1a8fa29ed2dc2289e8f2090eb61b6e007d0b060aa2c6caf1ebc"
+		}, {
+			"propername": "Bukkit 1.7.2 R0.3",
+			"name": "Bukkit-1.7.2-R0.3",
+			"details": "Bukkit 1.7.2 R0.3 Beta Build (~408KB)",
+			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/Bukkit-1.7.2-R0.3.javatar-packages",
+			"hash": "5db01d79ba3aa19bceed69bc8d8d9f725b63b5807e338b8f3fc48fd15384c275"
 		}
 	]
 }

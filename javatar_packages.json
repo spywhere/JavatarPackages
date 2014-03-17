@@ -24,13 +24,13 @@
 			"name": "Bukkit-1.6.4-R2.0",
 			"details": "Bukkit 1.6.4 R2.0 Recommended Build (~399KB)",
 			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/Bukkit-1.6.4-R2.0.javatar-packages",
-			"hash": "edb26a91f027a1a8fa29ed2dc2289e8f2090eb61b6e007d0b060aa2c6caf1ebc"
+			"hash": "49da0c0728043d8b8cf477cf9346958a1483be8aee87cc1c58ad7746841f6c85"
 		}, {
 			"propername": "Bukkit 1.7.2 R0.3",
 			"name": "Bukkit-1.7.2-R0.3",
 			"details": "Bukkit 1.7.2 R0.3 Beta Build (~408KB)",
 			"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/Bukkit-1.7.2-R0.3.javatar-packages",
-			"hash": "5db01d79ba3aa19bceed69bc8d8d9f725b63b5807e338b8f3fc48fd15384c275"
+			"hash": "50ddba57c8e3a7860f513129388fa7d73a159659772cebdc3a669836bff59c06"
 		}
 	]
 }

@@ -24,7 +24,7 @@ Javatar Packages repository for Javatar plugin for both Sublime and Atom
 	// Details of the package (specify estimated file size is recommended)
 	"details": "Java Standard Edition 7 packages (~1.4MB)",
 	// A package file name (without extension)
-	"file": "JavaSE7",
+	"filename": "JavaSE7",
 	// Hash checksum (can be generated using Development Section... > Generate SHA-256 Hash from URL)
 	"hash": "e97b9b411575c73cf8561022ec007b6402ba86be365d4da825c01ce1fd9ad3e0"
 }

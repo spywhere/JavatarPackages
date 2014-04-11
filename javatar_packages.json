@@ -32,31 +32,50 @@
 	"0.3": {
 		"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/",
 		"packages": [
+			// Keep Java on top
 			{
-				"name": "Java SE7",
-				"details": "Java Standard Edition 7 packages (~1.4MB)",
+				"name": "Java Standard Edition 7 packages",
+				"filesize": "1.4MB",
 				"filename": "JavaSE7",
 				"hash": "e97b9b411575c73cf8561022ec007b6402ba86be365d4da825c01ce1fd9ad3e0"
 			}, {
-				"name": "Java SE8",
-				"details": "Java Standard Edition 8 packages (~1.8MB)",
+				"name": "Java Standard Edition 8 packages",
+				"filesize": "1.8MB",
 				"filename": "JavaSE8",
 				"hash": "21afaedd094fa7ef3994577807500f80e2c3d236094eef981417569e10de0683"
 			}, {
-				"name": "Java FX8",
-				"details": "JavaFX 8 packages (~980KB)",
+				"name": "JavaFX 8 packages",
+				"filesize": "980KB",
 				"filename": "JavaFX8",
 				"hash": "8a32971866a0db9afc709e7757cd74ac60d5d4811031df6b911c8c423a746a72"
-			}, {
-				"name": "Bukkit 1.6.4 R2.0",
-				"details": "Bukkit 1.6.4 R2.0 Recommended Build (~399KB)",
+			},
+			// Other packages sort by name, version (stable first, latest first)
+			{
+				"name": "Bukkit 1.6.4 R2.0 Recommended Build",
+				"filesize": "399KB",
 				"filename": "Bukkit-1.6.4-R2.0",
 				"hash": "49da0c0728043d8b8cf477cf9346958a1483be8aee87cc1c58ad7746841f6c85"
 			}, {
-				"name": "Bukkit 1.7.2 R0.3",
-				"details": "Bukkit 1.7.2 R0.3 Beta Build (~408KB)",
+				"name": "Bukkit 1.7.2 R0.3 Beta Build",
+				"filesize": "408KB",
 				"filename": "Bukkit-1.7.2-R0.3",
 				"hash": "50ddba57c8e3a7860f513129388fa7d73a159659772cebdc3a669836bff59c06"
+			}, {
+				"name": "JBox2D 2.3.1",
+				"filesize": "153KB",
+				"filename": "JBox2D-2.3.1",
+				"hash": "006df5c2d7036931985e0bd900d1f4d1fb205405c75755d7c78183e26c4d206c"
+			}, {
+				"name": "LWJGL 2.9.1",
+				"filesize": "176KB",
+				"filename": "LWJGL-2.9.1",
+				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4"
+			}, {
+				"name": "Slick ",
+				"filesize": "KB",
+				"filename": "Slick",
+				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4",
+				"available": false
 			}
 		]
 	}

@@ -32,7 +32,7 @@
 	"0.3": {
 		"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/",
 		"packages": [
-			// Keep Java on top
+			// Java first sort by version, most use
 			{
 				"name": "Java Standard Edition 7 packages",
 				"filesize": "1.4MB",
@@ -44,7 +44,7 @@
 				"filename": "JavaSE8",
 				"hash": "21afaedd094fa7ef3994577807500f80e2c3d236094eef981417569e10de0683"
 			}, {
-				"name": "JavaFX 8 packages",
+				"name": "Java FX 8 packages",
 				"filesize": "980KB",
 				"filename": "JavaFX8",
 				"hash": "8a32971866a0db9afc709e7757cd74ac60d5d4811031df6b911c8c423a746a72"
@@ -71,11 +71,10 @@
 				"filename": "LWJGL-2.9.1",
 				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4"
 			}, {
-				"name": "Slick ",
-				"filesize": "KB",
-				"filename": "Slick",
-				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4",
-				"available": false
+				"name": "Slick 2.9.0",
+				"filesize": "286KB",
+				"filename": "Slick-2.9.0",
+				"hash": "f0f3241f3d849aaeb32e627b0c1e64c6790baa1bd459d32b5a5d912e0211a8ea"
 			}
 		]
 	}

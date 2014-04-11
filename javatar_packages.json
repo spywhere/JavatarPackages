@@ -39,13 +39,13 @@
 				"filesize": "1.4MB",
 				"filename": "JavaSE7",
 				"hash": "82c6b0d184a45d3ee1e15e38237a366ff6242f3bfee224113b13c787316df9dd",
-				"conflict": ["Java Standard Edition 8"]
+				"conflict": ["Java Standard Edition"]
 			}, {
 				"name": "Java Standard Edition 8",
 				"filesize": "1.8MB",
 				"filename": "JavaSE8",
 				"hash": "688b32406ee5358ed0c13095c34b491b28d2ea55477eca0f5073f0b17c8d1a8b",
-				"conflict": ["Java Standard Edition 7"]
+				"conflict": ["Java Standard Edition"]
 			}, {
 				"name": "Java FX 8",
 				"filesize": "980KB",
@@ -58,13 +58,13 @@
 				"filesize": "399KB",
 				"filename": "Bukkit-1.6.4-R2.0",
 				"hash": "c8a93fcc5de7872423b63bc11fa2e7ca69a2365219ffcf7cc3c80456b667ce4a",
-				"conflict": ["Bukkit 1.7.2 R0.3 Beta Build"]
+				"conflict": ["Bukkit"]
 			}, {
 				"name": "Bukkit 1.7.2 R0.3 Beta Build",
 				"filesize": "408KB",
 				"filename": "Bukkit-1.7.2-R0.3",
 				"hash": "ffc9a4551b19bd1db91dbda550510afe11c8d7791e7b982a092bb9bb67b67caa",
-				"conflict": ["Bukkit 1.6.4 R2.0 Recommended Build"]
+				"conflict": ["Bukkit"]
 			}, {
 				"name": "JBox2D 2.3.1",
 				"filesize": "153KB",

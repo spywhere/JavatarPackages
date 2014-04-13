@@ -32,6 +32,7 @@
 	"0.3": {
 		"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/",
 		"install": "Java Standard Edition 8",
+		"deprecated": false,
 		"packages": [
 			// Java first sort by version, most use
 			{

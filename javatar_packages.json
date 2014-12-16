@@ -17,16 +17,6 @@
 			"details": "JavaFX 8 packages (~980KB)",
 			"filename": "JavaFX8",
 			"hash": "4adaee6707953f5e496b110d84e4bc49a14602f4c471782514f77cf0db906543"
-		}, {
-			"name": "Bukkit 1.6.4 R2.0 Recommended Build",
-			"details": "Bukkit 1.6.4 R2.0 Recommended Build (~399KB)",
-			"filename": "Bukkit-1.6.4-R2.0",
-			"hash": "c8a93fcc5de7872423b63bc11fa2e7ca69a2365219ffcf7cc3c80456b667ce4a"
-		}, {
-			"name": "Bukkit 1.7.2 R0.3 Beta Build",
-			"details": "Bukkit 1.7.2 R0.3 Beta Build (~408KB)",
-			"filename": "Bukkit-1.7.2-R0.3",
-			"hash": "ffc9a4551b19bd1db91dbda550510afe11c8d7791e7b982a092bb9bb67b67caa"
 		}
 	],
 	"0.3": {
@@ -55,18 +45,6 @@
 			},
 			// Other packages sort by name, version (stable first, latest first)
 			{
-				"name": "Bukkit 1.6.4 R2.0 Recommended Build",
-				"filesize": "399KB",
-				"filename": "Bukkit-1.6.4-R2.0",
-				"hash": "c8a93fcc5de7872423b63bc11fa2e7ca69a2365219ffcf7cc3c80456b667ce4a",
-				"conflict": ["Bukkit"]
-			}, {
-				"name": "Bukkit 1.7.2 R0.3 Beta Build",
-				"filesize": "408KB",
-				"filename": "Bukkit-1.7.2-R0.3",
-				"hash": "ffc9a4551b19bd1db91dbda550510afe11c8d7791e7b982a092bb9bb67b67caa",
-				"conflict": ["Bukkit"]
-			}, {
 				"name": "JBox2D 2.3.1",
 				"filesize": "153KB",
 				"filename": "JBox2D-2.3.1",
@@ -84,7 +62,50 @@
 			}
 		]
 	},
-	"0.4": {
+	"1.0": {
+		"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/",
+		"install": "Java Standard Edition 8",
+		"deprecated": false,
+		"packages": [
+			// Java first sort by version, most use
+			{
+				"name": "Java Standard Edition 7",
+				"filesize": "3.7MB",
+				"filename": "JavaSE7",
+				"hash": "16e00c32589daeacff80d557a3c1b2f4441bde33a572fb6df3345c1e5cc52b65",
+				"conflict": ["Java Standard Edition"]
+			}, {
+				"name": "Java Standard Edition 8",
+				"filesize": "4MB",
+				"filename": "JavaSE8",
+				"hash": "b531d993a513b42d46d9ef68c31ec079ee420a89df22ac25cc87750faa8d7876",
+				"conflict": ["Java Standard Edition"]
+			}, {
+				"name": "Java FX 8",
+				"filesize": "980KB",
+				"filename": "JavaFX8",
+				"hash": "4adaee6707953f5e496b110d84e4bc49a14602f4c471782514f77cf0db906543"
+			},
+			// Other packages sort by name, version (stable first, latest first)
+			{
+				"name": "JBox2D 2.3.1",
+				"filesize": "153KB",
+				"filename": "JBox2D-2.3.1",
+				"hash": "006df5c2d7036931985e0bd900d1f4d1fb205405c75755d7c78183e26c4d206c"
+			}, {
+				"name": "LWJGL 2.9.1",
+				"filesize": "176KB",
+				"filename": "LWJGL-2.9.1",
+				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4"
+			}, {
+				"name": "Slick 2.9.0",
+				"filesize": "286KB",
+				"filename": "Slick-2.9.0",
+				"hash": "f0f3241f3d849aaeb32e627b0c1e64c6790baa1bd459d32b5a5d912e0211a8ea"
+			}
+		]
+	},
+	"1.x": {
 		"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/",
 		"install": ["Java", "Standard Edition", "8"],
 		"deprecated": false,
@@ -92,6 +113,8 @@
 			// Java first sort by version, most use
 			{
 				"name": "Java",
+				// Development channel only
+				"channels": ["dev"],
 				"versions": [
 					{
 						"name": "Standard Edition",
@@ -126,23 +149,6 @@
 			},
 			// Other packages sort by name, version (stable first, latest first)
 			{
-				"name": "Bukkit",
-				"versions": [
-					{
-						"name": "1.6.4 R2.0 Recommended Build",
-						"filesize": "399KB",
-						"filename": "Bukkit-1.6.4-R2.0",
-						"hash": "c8a93fcc5de7872423b63bc11fa2e7ca69a2365219ffcf7cc3c80456b667ce4a",
-						"conflict": ["Bukkit"]
-					}, {
-						"name": "1.7.2 R0.3 Beta Build",
-						"filesize": "408KB",
-						"filename": "Bukkit-1.7.2-R0.3",
-						"hash": "ffc9a4551b19bd1db91dbda550510afe11c8d7791e7b982a092bb9bb67b67caa",
-						"conflict": ["Bukkit"]
-					}
-				]
-			}, {
 				"name": "JBox2D",
 				"versions": [
 					{

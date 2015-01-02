@@ -22,7 +22,7 @@
 	"0.3": {
 		"url": "https://raw.github.com/spywhere/JavatarPackages/master/packages/",
 		"install": "Java Standard Edition 8",
-		"deprecated": false,
+		"deprecated": true,
 		"packages": [
 			// Java first sort by version, most use
 			{
@@ -45,17 +45,27 @@
 			},
 			// Other packages sort by name, version (stable first, latest first)
 			{
+				"name": "JUnit 4.12",
+				"filesize": "76KB",
+				"filename": "JUnit-4.12",
+				"hash": "a66130914fb3aca6ece220d433e01ffce7a3e9740fa0996e7f8cec61f6dd47f3"
+			}, {
 				"name": "JBox2D 2.3.1",
 				"filesize": "153KB",
 				"filename": "JBox2D-2.3.1",
 				"hash": "006df5c2d7036931985e0bd900d1f4d1fb205405c75755d7c78183e26c4d206c"
 			}, {
-				"name": "LWJGL 2.9.1",
+				"name": "LWJGL 3",
+				"filesize": "51KB",
+				"filename": "LWJGL-3",
+				"hash": "abb4cf171e7195a4b85cf73b06fb71d8557ac2293197a6b550b7f20fb951f273"
+			}, {
+				"name": "LWJGL 2.9.1 (deprecated)",
 				"filesize": "176KB",
 				"filename": "LWJGL-2.9.1",
 				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4"
 			}, {
-				"name": "Slick 2.9.0",
+				"name": "Slick 2.9.0 (deprecated)",
 				"filesize": "286KB",
 				"filename": "Slick-2.9.0",
 				"hash": "f0f3241f3d849aaeb32e627b0c1e64c6790baa1bd459d32b5a5d912e0211a8ea"
@@ -88,17 +98,27 @@
 			},
 			// Other packages sort by name, version (stable first, latest first)
 			{
+				"name": "JUnit 4.12",
+				"filesize": "76KB",
+				"filename": "JUnit-4.12",
+				"hash": "a66130914fb3aca6ece220d433e01ffce7a3e9740fa0996e7f8cec61f6dd47f3"
+			}, {
 				"name": "JBox2D 2.3.1",
 				"filesize": "153KB",
 				"filename": "JBox2D-2.3.1",
 				"hash": "006df5c2d7036931985e0bd900d1f4d1fb205405c75755d7c78183e26c4d206c"
 			}, {
-				"name": "LWJGL 2.9.1",
+				"name": "LWJGL 3",
+				"filesize": "51KB",
+				"filename": "LWJGL-3",
+				"hash": "abb4cf171e7195a4b85cf73b06fb71d8557ac2293197a6b550b7f20fb951f273"
+			}, {
+				"name": "LWJGL 2.9.1 (deprecated)",
 				"filesize": "176KB",
 				"filename": "LWJGL-2.9.1",
 				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4"
 			}, {
-				"name": "Slick 2.9.0",
+				"name": "Slick 2.9.0 (deprecated)",
 				"filesize": "286KB",
 				"filename": "Slick-2.9.0",
 				"hash": "f0f3241f3d849aaeb32e627b0c1e64c6790baa1bd459d32b5a5d912e0211a8ea"
@@ -113,8 +133,6 @@
 			// Java first sort by version, most use
 			{
 				"name": "Java",
-				// Development channel only
-				"channels": ["dev"],
 				"versions": [
 					{
 						"name": "Standard Edition",
@@ -149,6 +167,16 @@
 			},
 			// Other packages sort by name, version (stable first, latest first)
 			{
+				"name": "JUnit",
+				"versions": [
+					{
+						"name": "4.12",
+						"filesize": "76KB",
+						"filename": "JUnit-4.12",
+						"hash": "a66130914fb3aca6ece220d433e01ffce7a3e9740fa0996e7f8cec61f6dd47f3"
+					}
+				]
+			}, {
 				"name": "JBox2D",
 				"versions": [
 					{
@@ -162,6 +190,11 @@
 				"name": "LWJGL",
 				"versions": [
 					{
+						"name": "3",
+						"filesize": "51KB",
+						"filename": "LWJGL-3",
+						"hash": "abb4cf171e7195a4b85cf73b06fb71d8557ac2293197a6b550b7f20fb951f273"
+					}, {
 						"name": "2.9.1",
 						"filesize": "176KB",
 						"filename": "LWJGL-2.9.1",

@@ -16,9 +16,9 @@ Javatar Packages repository for Javatar plugin for both Sublime and Atom
  2. Copy your Javatar Packages to `packages` folder
  3. Add your package informations into `javatar_packages.json` file
  4. Submit a pull request
- 
+
  *Example of package informations*
- 
+
 ```
 {
 	// A package name (should be exactly same as inside .javatar-packages file)

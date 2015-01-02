@@ -58,12 +58,14 @@
 				"name": "LWJGL 3",
 				"filesize": "51KB",
 				"filename": "LWJGL-3",
-				"hash": "abb4cf171e7195a4b85cf73b06fb71d8557ac2293197a6b550b7f20fb951f273"
+				"hash": "abb4cf171e7195a4b85cf73b06fb71d8557ac2293197a6b550b7f20fb951f273",
+				"conflict": ["LWJGL"]
 			}, {
 				"name": "LWJGL 2.9.1 (deprecated)",
 				"filesize": "176KB",
 				"filename": "LWJGL-2.9.1",
-				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4"
+				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4",
+				"conflict": ["LWJGL"]
 			}, {
 				"name": "Slick 2.9.0 (deprecated)",
 				"filesize": "286KB",
@@ -111,12 +113,14 @@
 				"name": "LWJGL 3",
 				"filesize": "51KB",
 				"filename": "LWJGL-3",
-				"hash": "abb4cf171e7195a4b85cf73b06fb71d8557ac2293197a6b550b7f20fb951f273"
+				"hash": "abb4cf171e7195a4b85cf73b06fb71d8557ac2293197a6b550b7f20fb951f273",
+				"conflict": ["LWJGL"]
 			}, {
 				"name": "LWJGL 2.9.1 (deprecated)",
 				"filesize": "176KB",
 				"filename": "LWJGL-2.9.1",
-				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4"
+				"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4",
+				"conflict": ["LWJGL"]
 			}, {
 				"name": "Slick 2.9.0 (deprecated)",
 				"filesize": "286KB",
@@ -142,13 +146,13 @@
 								"filesize": "1.4MB",
 								"filename": "JavaSE7",
 								"hash": "82c6b0d184a45d3ee1e15e38237a366ff6242f3bfee224113b13c787316df9dd",
-								"conflict": ["Java Standard Edition"]
+								"conflict": ["Java>Standard Edition"]
 							}, {
 								"name": "8",
 								"filesize": "1.8MB",
 								"filename": "JavaSE8",
 								"hash": "688b32406ee5358ed0c13095c34b491b28d2ea55477eca0f5073f0b17c8d1a8b",
-								"conflict": ["Java Standard Edition"]
+								"conflict": ["Java>Standard Edition"]
 							}
 						]
 					}, {
@@ -193,12 +197,14 @@
 						"name": "3",
 						"filesize": "51KB",
 						"filename": "LWJGL-3",
-						"hash": "abb4cf171e7195a4b85cf73b06fb71d8557ac2293197a6b550b7f20fb951f273"
+						"hash": "abb4cf171e7195a4b85cf73b06fb71d8557ac2293197a6b550b7f20fb951f273",
+						"conflict": ["LWJGL"]
 					}, {
 						"name": "2.9.1",
 						"filesize": "176KB",
 						"filename": "LWJGL-2.9.1",
-						"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4"
+						"hash": "ac7c724c1c9ee5ae12b9faf0d6daba14ca5bfa6dcc8de262180a3485af00d2d4",
+						"conflict": ["LWJGL"]
 					}
 				]
 			}, {
